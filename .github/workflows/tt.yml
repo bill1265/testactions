@@ -1,0 +1,7 @@
+name: Just Say Hello
+on: [push]
+jobs:
+  Hello-World-For-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello World"
